@@ -64,3 +64,4 @@ v1
 [Detalles](https://tech.microbit.org/hardware/edgeconnector/)
 
 Es openSource [Esquema electrónico](https://tech.microbit.org/hardware/schematic/)
+
