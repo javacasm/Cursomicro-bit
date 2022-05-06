@@ -4,7 +4,7 @@
 
 [Fundación microbit](http://microbit.org/es/)
 
-[Microbit es totalmente Open Source](https://www.microbit.co.uk/open_source)
+[micro:bit es totalmente Open Source](https://www.microbit.co.uk/open_source)
 
 [Github de microbit](https://github.com/bbcmicrobit)
 
