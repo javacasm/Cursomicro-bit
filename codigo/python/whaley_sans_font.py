@@ -22,7 +22,7 @@ FONT = [
         [1, 1, 1, 1, 1, 1, 0, 1, 1, 1]
     ]
 
-def show_number(number,bright = 9):
+def show_number(number,bright = 9,leading_cero=True):
     display.clear()
     if number < 0 or number > 99:
         display.show(Image.CONFUSED)
@@ -30,7 +30,7 @@ def show_number(number,bright = 9):
         digit_10 = number // 10
         digit_1 = number % 10
         for i in range(5):
-            if digit_10>0:
+            if leading_cero or digit_10>0:
                 display.set_pixel(0,i,bright*FONT[digit_10][2*i])
                 display.set_pixel(1,i,bright*FONT[digit_10][2*i+1])
             display.set_pixel(3,i,bright*FONT[digit_1][2*i])
