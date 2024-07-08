@@ -3,7 +3,7 @@
 # http://www.micropython.org.cn
 # from https://github.com/makecode-extensions/WhaleySansFont/blob/master/WhaleySansFont.ts
 
-from microbit import display
+from microbit import display, Image
 
 v = '0.1'
 
@@ -30,13 +30,8 @@ def show_number(number,bright = 9):
         digit_10 = number // 10
         digit_1 = number % 10
         for i in range(5):
-            display.set_pixel(i,0,bright*FONT[2*i][digit_10])
-            display.set_pixel(i,1,bright*FONT[[2*i+1][digit_10])
-            display.set_pixel(i,3,bright*FONT[2*i][digit_10])
-            display.set_pixel(i,4,bright*FONT[2*i+1][digit_10])    
-
-if __name__ == '__main__':
-    from utime import sleep_ms
-    for i in range(100):
-        show_number(i)
-        sleep_ms(500)
+            if digit_10>0:
+                display.set_pixel(0,i,bright*FONT[digit_10][2*i])
+                display.set_pixel(1,i,bright*FONT[digit_10][2*i+1])
+            display.set_pixel(3,i,bright*FONT[digit_1][2*i])
+            display.set_pixel(4,i,bright*FONT[digit_1][2*i+1])    
