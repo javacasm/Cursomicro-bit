@@ -1,8 +1,3 @@
-# mimic python.py
-
-# Mimic - the micro:bit parrot
-
-# 5 ene 2021 por Ivan Bosnić
 # mi:mic (C) 2020 Micro:bit Educational Foundation
 # MIT https://spdx.org/licenses/MIT.html
 # Original Author D.J.Whale. Updated to latest API by J Austin

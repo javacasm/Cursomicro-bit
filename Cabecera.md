@@ -6,10 +6,8 @@
 
 ![](./images/Licencia_CC_peque.png)  
 
-__Licencia CC by SA__ by @javacasm
+__Licencia CC by SA__ by @javacasm - José Antonio Vacas Martínez
 
-José Antonio Vacas Martínez
-
-### https://elCacharreo.com
+### [https://elCacharreo.com](https://elCacharreo.com)
 
 Marzo 2024
